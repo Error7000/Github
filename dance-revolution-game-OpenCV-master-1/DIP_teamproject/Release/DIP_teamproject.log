@@ -1,0 +1,95 @@
+﻿  Audio.cpp
+Audio.cpp(50): error C2601: “Music::volume”: 本地函数定义是非法的
+  Audio.cpp(44): note: 此行有一个“{”没有匹配项
+Audio.cpp(54): error C2601: “Music::rewind”: 本地函数定义是非法的
+  Audio.cpp(44): note: 此行有一个“{”没有匹配项
+Audio.cpp(62): error C2064: 项不会计算为接受 1 个参数的函数
+Audio.cpp(63): error C2143: 语法错误: 缺少“;”(在“Channel::~Channel”的前面)
+Audio.cpp(63): error C2352: “Channel::~Channel”: 非静态成员函数的非法调用
+  c:\users\pppaoajd\downloads\dance-revolution-game-opencv-master-1\dip_teamproject\Audio.h(37): note: 参见“Channel::~Channel”的声明
+Audio.cpp(67): error C2143: 语法错误: 缺少“;”(在“Sound::{ctor}”的前面)
+Audio.cpp(67): error C2275: “std::string”: 将此类型用作表达式非法
+  Audio.cpp(67): note: 参见“std::string”的声明
+Audio.cpp(67): error C2146: 语法错误: 缺少“)”(在标识符“src”的前面)
+Audio.cpp(67): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+Audio.cpp(68): error C2065: “src”: 未声明的标识符
+Audio.cpp(69): error C2065: “buffer”: 未声明的标识符
+Audio.cpp(69): error C2228: “.loadFromFile”的左边必须有类/结构/联合
+  Audio.cpp(69): note: 类型是“unknown-type”
+Audio.cpp(69): error C2065: “src”: 未声明的标识符
+Audio.cpp(70): error C2065: “sound”: 未声明的标识符
+Audio.cpp(70): error C2228: “.setBuffer”的左边必须有类/结构/联合
+  Audio.cpp(70): note: 类型是“unknown-type”
+Audio.cpp(70): error C2065: “buffer”: 未声明的标识符
+Audio.cpp(73): error C2352: “Sound::~Sound”: 非静态成员函数的非法调用
+  c:\users\pppaoajd\downloads\dance-revolution-game-opencv-master-1\dip_teamproject\Audio.h(48): note: 参见“Sound::~Sound”的声明
+Audio.cpp(75): error C2144: 语法错误:“void”的前面应有“;”
+Audio.cpp(75): error C2601: “Sound::play”: 本地函数定义是非法的
+  Audio.cpp(44): note: 此行有一个“{”没有匹配项
+Audio.cpp(79): error C2601: “Sound::stop”: 本地函数定义是非法的
+  Audio.cpp(44): note: 此行有一个“{”没有匹配项
+Audio.cpp(83): error C2601: “Sound::volume”: 本地函数定义是非法的
+  Audio.cpp(44): note: 此行有一个“{”没有匹配项
+Audio.cpp(90): error C2064: 项不会计算为接受 1 个参数的函数
+Audio.cpp(91): error C2143: 语法错误: 缺少“;”(在“StreamingSound::~StreamingSound”的前面)
+Audio.cpp(91): error C2352: “StreamingSound::~StreamingSound”: 非静态成员函数的非法调用
+  c:\users\pppaoajd\downloads\dance-revolution-game-opencv-master-1\dip_teamproject\Audio.h(59): note: 参见“StreamingSound::~StreamingSound”的声明
+Audio.cpp(44): fatal error C1075: 左侧的 大括号“{” 与文件结尾不匹配
+  Input.cpp
+C:\Users\pppaoajd\Downloads\dance-revolution-game-OpenCV-master-1\DIP_teamproject\packages\opencv3.1.1.0\build\native\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\pppaoajd\Downloads\dance-revolution-game-OpenCV-master-1\DIP_teamproject\packages\opencv3.1.1.0\build\native\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\pppaoajd\Downloads\dance-revolution-game-OpenCV-master-1\DIP_teamproject\packages\opencv3.1.1.0\build\native\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\pppaoajd\Downloads\dance-revolution-game-OpenCV-master-1\DIP_teamproject\packages\opencv3.1.1.0\build\native\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+Input.cpp(12): warning C4305: “初始化”: 从“double”到“float”截断
+Input.cpp(29): error C3861: “createBackgroundSubtractorMOG”: 找不到标识符
+Input.cpp(43): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+Input.cpp(44): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+Input.cpp(51): error C2661: “std::vector<cv::Ptr<cv::BackgroundSubtractorMOG2>,std::allocator<_Ty>>::push_back”: 没有重载函数接受 0 个参数
+          with
+          [
+              _Ty=cv::Ptr<cv::BackgroundSubtractorMOG2>
+          ]
+Input.cpp(76): error C2143: 语法错误: 缺少“;”(在“?”的前面)
+Input.cpp(76): error C2761: “>>”: 不允许成员函数重新声明
+Input.cpp(76): error C2059: 语法错误:“?”
+Input.cpp(86): error C2660: “cv::VideoCapture::read”: 函数不接受 0 个参数
+Input.cpp(92): error C2065: “frame”: 未声明的标识符
+Input.cpp(144): error C2059: 语法错误:“:”
+Input.cpp(145): error C2059: 语法错误:“:”
+Input.cpp(146): error C2059: 语法错误:“:”
+Input.cpp(164): error C2039: “()”: 不是“cv::Ptr<cv::BackgroundSubtractorMOG2>”的成员
+  C:\Users\pppaoajd\Downloads\dance-revolution-game-OpenCV-master-1\DIP_teamproject\packages\opencv3.1.1.0\build\native\include\opencv2/video/background_segm.hpp(209): note: 参见“cv::Ptr<cv::BackgroundSubtractorMOG2>”的声明
+Input.cpp(164): error C2065: “fgMaskMog”: 未声明的标识符
+Input.cpp(191): error C2374: “frame”: 重定义；多次初始化
+  Input.cpp(190): note: 参见“frame”的声明
+Input.cpp(231): error C2065: “pygame”: 未声明的标识符
+Input.cpp(231): error C2228: “.image”的左边必须有类/结构/联合
+  Input.cpp(231): note: 类型是“unknown-type”
+Input.cpp(231): error C2228: “.frombuffer”的左边必须有类/结构/联合
+Input.cpp(231): error C2065: “im”: 未声明的标识符
+Input.cpp(231): error C2228: “.tostring”的左边必须有类/结构/联合
+  Input.cpp(231): note: 类型是“unknown-type”
+Input.cpp(231): error C3861: “getSize”: 找不到标识符
+Input.cpp(237): error C2065: “frame”: 未声明的标识符
+Input.cpp(245): error C2084: 函数“void input::run(void)”已有主体
+  Input.cpp(236): note: 参见“run”的前一个定义
+  MidiParserIP.cpp
+  Resource.cpp
+  Scene.cpp
+C:\Users\pppaoajd\Downloads\dance-revolution-game-OpenCV-master-1\DIP_teamproject\packages\opencv3.1.1.0\build\native\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\pppaoajd\Downloads\dance-revolution-game-OpenCV-master-1\DIP_teamproject\packages\opencv3.1.1.0\build\native\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\pppaoajd\Downloads\dance-revolution-game-OpenCV-master-1\DIP_teamproject\packages\opencv3.1.1.0\build\native\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\pppaoajd\Downloads\dance-revolution-game-OpenCV-master-1\DIP_teamproject\packages\opencv3.1.1.0\build\native\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+Scene.cpp(47): warning C4244: “=”: 从“unsigned int”转换到“float”，可能丢失数据
+Scene.cpp(92): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+Scene.cpp(130): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+Scene.cpp(290): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+Scene.cpp(291): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+Scene.cpp(292): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+Scene.cpp(338): warning C4244: “初始化”: 从“unsigned int”转换到“float”，可能丢失数据
+  Source.cpp
+C:\Users\pppaoajd\Downloads\dance-revolution-game-OpenCV-master-1\DIP_teamproject\packages\opencv3.1.1.0\build\native\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\pppaoajd\Downloads\dance-revolution-game-OpenCV-master-1\DIP_teamproject\packages\opencv3.1.1.0\build\native\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\pppaoajd\Downloads\dance-revolution-game-OpenCV-master-1\DIP_teamproject\packages\opencv3.1.1.0\build\native\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\pppaoajd\Downloads\dance-revolution-game-OpenCV-master-1\DIP_teamproject\packages\opencv3.1.1.0\build\native\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+Source.cpp(24): warning C4244: “参数”: 从“float”转换到“unsigned int”，可能丢失数据
